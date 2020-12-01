@@ -1,0 +1,46 @@
+// Containers
+.all-cards-container {
+  width: 97%;
+  display: flex;
+  justify-content: space-around;
+}
+.card-container {
+  position: relative;
+  text-align: center;
+  color: whitesmoke;
+  width: 100%;
+  margin: 0 0.15rem;
+}
+
+/* display text over image */
+.likes-container {
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  // top: 1rem;
+  left: 1rem;
+  // right: 1rem;
+}
+.likes {
+  background-color: #222222cc;
+  margin: 0 0.1rem;
+  padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+  border: solid 0.1rem #333;
+  border-radius: 0.75rem;
+}
+.likes-link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+/* card style */
+.image {
+  width: 100%; // @100% the image fills its container
+  height: auto;
+  // background-color: #fff;
+  padding: 0;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+}

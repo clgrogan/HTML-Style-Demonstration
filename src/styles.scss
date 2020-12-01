@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+/* element styling */
+
+.component-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 0.1rem gray;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.section-title {
+  align-self: flex-start;
+}
+
+@media (max-width: 799px) {
+  .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  //  Style for larger screens
+}
